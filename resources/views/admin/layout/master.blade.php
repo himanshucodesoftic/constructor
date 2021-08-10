@@ -40,19 +40,12 @@
 <!-- End of Sidebar -->
 
 <!-- Content Wrapper -->
-<div id="content-wrapper" class="d-flex flex-column">
-@include('admin.layout.header')
 @include('admin.layout.sidebar')
-
-
+@include('admin.layout.header')
 
 @yield('content')
 
 @include('admin.layout.footer')
-
-</div>
-
-</div>
 
 </body>
     
