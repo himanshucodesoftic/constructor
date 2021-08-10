@@ -23,6 +23,6 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::group(['middleware' => ['admin']], function () {
 
 Route::get('/name',"AdminController@dashboard");
-Route::get('/registerentry',"EntryController@showregister");
+Route::get('/registerentry',"RegisterController@showregister");
 
 });
