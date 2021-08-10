@@ -15,7 +15,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>admin</title>
+    <title></title>
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -32,12 +32,27 @@
     
     
 <body id="page-top">
+
+<div id="wrapper">
+
+<!-- Sidebar -->
+
+<!-- End of Sidebar -->
+
+<!-- Content Wrapper -->
+<div id="content-wrapper" class="d-flex flex-column">
 @include('admin.layout.header')
 @include('admin.layout.sidebar')
+
+
 
 @yield('content')
 
 @include('admin.layout.footer')
+
+</div>
+
+</div>
 
 </body>
     
